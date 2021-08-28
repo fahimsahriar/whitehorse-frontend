@@ -1,0 +1,200 @@
+h2{
+	color: #7dc94b;
+}
+h4{
+	padding-bottom: 20px;
+}
+.logo .navbar img{
+	width: 183%;
+}
+.logo a{
+	width: 98px;
+}
+.logo .navbar{
+	background-color: #c8ffa3;
+	
+}
+.container{
+	position: relative;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+nav.navbar{
+	z-index: 1;
+}
+.carousel-control-prev{
+	z-index: 3;
+}
+.menu-item{
+	position: relative;
+	z-index: 2;
+}
+.menu-item .nav-item{
+	 margin: 0px 30px;
+}
+.nav-link{
+	color: #fff !important;
+}
+#licensee .row{
+	position: relative;
+	background:  url(Photos/pattern.png) no-repeat;
+	background-size: cover;
+}
+#licensee h2{
+	border-bottom: 10px dotted;
+    text-align: center;
+    width: 500px;
+    margin: 20px;
+    padding: 5px;
+}
+.card{
+	border: 0px !important;
+	 background-color: #000 !important;
+	 position: relative;
+	 color: #fff;
+}
+.card_lay2{
+	overflow: hidden;
+	padding: 5px;
+	background:#91c868;
+	height: 324px;
+}
+.card a{
+	position: absolute;
+    opacity: 0;
+    bottom: 44%;
+    left: 28%;
+}
+.card_lay2:hover {
+	opacity: 0.6;
+
+}
+.card:hover a{
+	opacity: 1;
+	transition: 0.2s;
+}
+#Learning_thru_play{
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(Photos/ltp.jpg) no-repeat;
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+}
+#Learning_thru_play:hover{
+	background: linear-gradient(rgba(0, 0, 0, 0.72),rgba(0, 0, 0, 0.59)),url(Photos/ltp.jpg) no-repeat;
+	transition: 0.9s;
+}
+#Learning_thru_play button{
+	opacity: 0;
+}
+#Learning_thru_play:hover button{
+	opacity: 1;
+	transition: 0.5s;
+}
+.container .My-3{
+	position: relative;
+	background:  url(Photos/pattern.png) no-repeat;
+	background-size: cover;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	padding-bottom: 30px !important;
+
+}
+#card_car2 h2{
+	border-bottom: 10px dotted;
+    text-align: center;
+    width: 500px;
+    margin: 20px;
+    padding: 5px;
+}
+.col-md-4{
+	height: 100%;
+}
+.col-md-4 button{
+	opacity: 0;
+}
+
+.col-md-4:hover img{
+	opacity: 0.6;
+}
+.col-md-4:hover button{
+	opacity: 1;
+}
+
+.testimonial_slider{
+	position: relative;
+}
+.testimonial_slider img{
+	width: 100%;
+}
+#testi .testimonial{
+	position: absolute !important;
+	top: 33%;
+	width: 74%;
+	right: 1%;	
+}
+
+@media (max-width: 768px) {
+  .testimonial h3{
+  	font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial{
+  	position: absolute !important;
+    bottom: 22%;
+    left: 25%;
+  }
+}
+@media (max-width: 953px) {
+  .testimonial h3{
+  	font-size: 1rem;
+  }
+}
+@media (max-width: 953px) {
+  .testimonial{
+  	position: absolute !important;
+    bottom: 40%;
+    left: 23%;
+  }
+}
+#footer .container{
+	background-color: #91c667;;
+	color: #fff;
+}
+#footer a{
+	font-size: 22px;
+	text-decoration: none;
+	color: #FFF;
+
+}
+#footer .nav-item{
+	margin: 0px 88px;
+}
+@media (max-width: 768px) {
+  nav.navbar {
+    background: #45b8e5;
+    z-index: 1;
+  }
+}
+@media (max-width: 953px) {
+  nav.navbar {
+    background: #45b8e5;
+    z-index: 1;
+  }
+}
+@media (max-width: 953px) {
+  .menu-item{
+    z-index: 2;
+  }
+}
+@media (max-width: 768px) {
+  .menu-item{
+    z-index: 2;
+  }
+}
