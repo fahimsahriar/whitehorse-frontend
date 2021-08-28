@@ -1,2 +1,2 @@
 # whitehorse-frontend
-This a frontend development with html css bootstrap and js
+This is a frontend development with html css bootstrap and js
